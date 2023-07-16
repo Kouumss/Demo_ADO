@@ -3,9 +3,9 @@
 	[Game_Id] INT NOT NULL IDENTITY,
 	[Name] NVARCHAR(50) NOT NULL,
 	[Resume] NVARCHAR(200) NOT NULL,
-	[Release_Date] DATE,
+	[Release_Date] DATE NOT NULL,
 	[Is_Active] BIT DEFAULT 1,
-	[Price] DECIMAL(15,2) NOT NULL,
+	[Price] DECIMAL(15,2) NULL,
 	[Publisher_Id] INT NULL,
 
 	CONSTRAINT Pk_Game PRIMARY KEY ([Game_Id]),
