@@ -1,0 +1,10 @@
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\bin\Debug\CoursDBD_Demo.dacpac
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\bin\Debug\CoursDBD_Demo.dll
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\bin\Debug\CoursDBD_Demo.pdb
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\CoursDBD_Demo.sqlproj.AssemblyReference.cache
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\Model.xml
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\refactor.xml
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\postdeploy.sql
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\predeploy.sql
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\CoursDBD_Demo.dll
+C:\Users\k.messaoudi\Desktop\CoursDBD\CoursDBD_Demo\obj\Debug\CoursDBD_Demo.pdb
