@@ -21,16 +21,16 @@ Console.WriteLine($"Statut de la connexion : {demoConnection.State}");
 
 // Exemple de Requête : récupurer nombre de jeux dans la base de donnée :
 
-SqlCommand democCommand = demoConnection.CreateCommand();
+SqlCommand demoCommand = demoConnection.CreateCommand();
 
-democCommand.CommandText = "SELECT Count(*) FROM Game";
+demoCommand.CommandText = "SELECT Count(*) FROM Game";
 
-int nbr_jeux = (int)democCommand.ExecuteScalar(); // =>  Une ligne, un resultat (Count(*))
+int nbr_jeux = (int)demoCommand.ExecuteScalar(); // =>  Une ligne, un resultat (Count(*))
 
 Console.WriteLine($"Nombre de jeux dans la base de donnée : {nbr_jeux}");
 
-democCommand.CommandType = System.Data.CommandType.Text;
-democCommand.Connection = demoConnection;
+demoCommand.CommandType = System.Data.CommandType.Text;
+demoCommand.Connection = demoConnection;
 
 // - Fermer la connexion 
 demoConnection.Close();
